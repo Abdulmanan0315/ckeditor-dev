@@ -33,21 +33,21 @@
 				attributes: {
 					'class': 'easyimage-align-left'
 				},
-				label: editor.lang.easyimage.commands.alignLeft
+				label: editor.lang.common.alignLeft
 			},
 
 			alignCenter: {
 				attributes: {
 					'class': 'easyimage-align-center'
 				},
-				label: editor.lang.easyimage.commands.alignCenter
+				label: editor.lang.common.alignCenter
 			},
 
 			alignRight: {
 				attributes: {
 					'class': 'easyimage-align-right'
 				},
-				label: editor.lang.easyimage.commands.alignRight
+				label: editor.lang.common.alignRight
 			}
 		};
 
@@ -653,5 +653,5 @@
 	 * @cfg {String[]/String} [easyimage_toolbar=[ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt' ]]
 	 * @member CKEDITOR.config
 	 */
-	CKEDITOR.config.easyimage_toolbar = [ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt' ];
+	CKEDITOR.config.easyimage_toolbar = [ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt',  ];
 }() );

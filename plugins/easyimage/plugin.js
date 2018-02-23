@@ -653,5 +653,5 @@
 	 * @cfg {String[]/String} [easyimage_toolbar=[ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt' ]]
 	 * @member CKEDITOR.config
 	 */
-	CKEDITOR.config.easyimage_toolbar = [ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt',  ];
+	CKEDITOR.config.easyimage_toolbar = [ 'EasyimageFull', 'EasyimageSide', 'EasyimageAlt' ];
 }() );
